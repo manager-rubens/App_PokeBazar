@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary: #ff5a5f;
   --primary-shadow: #e03e43;
@@ -71,6 +75,10 @@ img {
 
 .font-display {
   font-family: "Fredoka", "Nunito", ui-sans-serif, sans-serif;
+}
+
+.tap-highlight-none {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .flat-button {
