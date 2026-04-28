@@ -32,6 +32,21 @@ npm run e2e
 npm run cap:sync
 ```
 
+## Deploy
+
+O deploy de produção roda automaticamente no GitHub Actions sempre que houver push na branch `main`.
+
+Configure estes secrets no repositório do GitHub:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+Valores do projeto Vercel atual:
+
+- `VERCEL_ORG_ID`: `team_yB5H4nNulzw9ciXULmLzpq1d`
+- `VERCEL_PROJECT_ID`: `prj_m7LwOsvy8AHw3WClmtYWN6N24BqK`
+
 ## Estrutura
 
 - `src/data`: dados mockados do bazar e da mochila.
